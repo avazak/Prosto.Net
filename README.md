@@ -82,8 +82,8 @@ prosto_net/
 
 1. **Клонирование проекта**
    ```bash
-   git clone <repository-url>
-   cd prosto_net
+   git clone (https://github.com/avazak/Prosto.Net.git
+   cd Prosto.Net
    ```
 
 2. **Установка зависимостей**
@@ -109,7 +109,7 @@ flutter build apk --release
 ### Сервер API
 По умолчанию приложение настроено на загрузку конфигураций с:
 ```
-http://5.252.21.194:8090/api/get-config
+http://**********:8090/api/get-config
 ```
 
 Для изменения URL отредактируйте `lib/services/config_service.dart`:
